@@ -6,8 +6,6 @@ public class Media {
     public void setNotas(){
         Media M = new Media();
         Scanner digitar = new Scanner(System.in);
-        System.out.print("Digite o nome do aluno: ");
-        aluno = digitar.nextLine();
         System.out.print("Digite a primeira nota: ");
         prova1 = digitar.nextFloat();
         System.out.print("Digite a segunda nota: ");
@@ -16,7 +14,7 @@ public class Media {
             System.out.println("Digitação de notas inválida.");
             M.setNotas();
             }
-        while(prova2<0 || prova2>10){
+            while(prova2<0 || prova2>10){
             System.out.println("Digitação de notas inválida.");
             M.setNotas();
             }
@@ -38,6 +36,9 @@ public class Media {
 
     public static void main(String args[]) {
         Media M = new Media();
+        Scanner digitar = new Scanner(System.in);
+        System.out.print("Digite o nome do aluno: ");
+        M.aluno = digitar.nextLine();
         M.setNotas();
         M.mediaNotas(M.prova1, M.prova2);
     }
