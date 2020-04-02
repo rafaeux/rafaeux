@@ -13,11 +13,11 @@ public class Media {
         while(prova1<0 || prova1>10){
             System.out.println("Digitação de notas inválida.");
             M.setNotas();
-            }
-            while(prova2<0 || prova2>10){
+        }
+        while(prova2<0 || prova2>10){
             System.out.println("Digitação de notas inválida.");
             M.setNotas();
-            }
+        }
     }
     public void mediaNotas(float p1, float p2) {
         Media M = new Media();
