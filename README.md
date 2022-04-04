@@ -1,6 +1,6 @@
 ### Opa 👋
 
-## Meu nome é Rafael Cunha, sou estudante de front-end e amador de tecnologia!
+## Meu nome é Rafael Cunha, sou desenvolvedor web e amador de tecnologia!
 
 <div align="center">
   <a href="https://github.com/rafaeux">
